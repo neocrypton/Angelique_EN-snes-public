@@ -1,2 +1,2 @@
 # Angelique_EN-SNES
-English Translation Patch for the SNES Game "Angelique"
+English Translation IPS-Patch for the SNES Game "Angelique"
