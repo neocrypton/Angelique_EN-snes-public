@@ -31,7 +31,7 @@ graphics have been redrawn.
 | Status bar (DAY counter, weekdays SU–SA, population icon) | ✅ redrawn |
 | Guardian profile and High Priest report labels (BOND, MATCH, POP, LEFT …) | ✅ redrawn |
 | Town map signs (お休み → CLOSED) | ✅ redrawn |
-| Title logo | ❌ still Japanese |
+| Title logo | ✅ kept in the original Japanese on purpose |
 | Full playtest of all endings | 🔄 in progress |
 
 ## Graphics: before / after
@@ -67,7 +67,6 @@ flash carts that support 32 Mbit HiROM.
 
 ## Known issues
 
-- The title logo is still in Japanese.
 - Player and land names can have up to 7 characters, because the game stores each letter as 2 bytes.
 - The game uses its original fixed-width font, so a few text boxes are split across two pages.
 - Please report any freezes, text overflow or untranslated text in the
