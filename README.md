@@ -7,7 +7,7 @@ This was the first game in the Neo Romance series. You play Angelique Limoges, o
 Queen candidates. With the help of the nine Guardians you must grow your continent faster
 than your rival Rosalia.
 
-**Current version: v0.99** – beta. The full script is translated, and most interface
+**Current version: v0.99a** – beta. The full script is translated, and most interface
 graphics have been redrawn.
 
 ## Screenshots
@@ -19,6 +19,7 @@ graphics have been redrawn.
 | ![Dormitory](screenshots/05_dormitory.png) | ![Guardian](screenshots/06_guardian.png) |
 | ![House of Fortunes](screenshots/07_fortune.png) | ![Profile](screenshots/08_profile.png) |
 | ![Choice](screenshots/09_choice.png) | ![Town map](screenshots/10_town.png) |
+| ![Continent report](screenshots/11_continent_report.png) | |
 
 ## Translation status
 
@@ -31,6 +32,7 @@ graphics have been redrawn.
 | Status bar (DAY counter, weekdays SU–SA, population icon) | ✅ redrawn |
 | Guardian profile and High Priest report labels (BOND, MATCH, POP, LEFT …) | ✅ redrawn |
 | Town map signs (お休み → CLOSED) | ✅ redrawn |
+| Continent report at the desk (POWER / WISHES, element names) | ✅ redrawn |
 | Title logo | ✅ kept in the original Japanese on purpose |
 | Full playtest of all endings | 🔄 in progress |
 
@@ -42,6 +44,7 @@ Left: original Japanese, right: English patch.
 ![Star sign](gfx/star_sign_jp_en.png)
 ![Blood type](gfx/blood_type_jp_en.png)
 ![Status bar](gfx/status_bar_jp_en.png)
+![Continent report](gfx/continent_report_jp_en.png)
 
 ## How to patch
 
@@ -54,11 +57,11 @@ You need the **original Japanese ROM**. The ROM is not provided here.
 | MD5 | `2df6243223f89ec161b5e015b085f7a0` |
 | SHA-1 | `4824bccebfd0f4f89e89993e0edb81d604105e38` |
 
-1. Download `Angelique_EN_v0.99_neocrypton.ips`.
+1. Download `Angelique_EN_v0.99a_neocrypton.ips`.
 2. Apply it to the ROM with an IPS patcher, such as [Lunar IPS](https://fusoya.eludevisibility.org/lips/), [Floating IPS](https://www.romhacking.net/utilities/1040/) or the online [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/).
 3. The patched ROM is **4 MB** (32 Mbit HiROM), with internal title `ANGELIQUE`.
-   - CRC32 `89FC8894`
-   - SHA-1 `6171256da64bf2b306b514b22defa9b9cce4cc06`
+   - CRC32 `46BE57BE`
+   - SHA-1 `c7e41a2aaaf6d248f1b445dcd7473a7086eda215`
 
 If your ROM has a 512-byte copier header (file size 2,097,664 bytes), remove the header before patching.
 
@@ -73,6 +76,14 @@ flash carts that support 32 Mbit HiROM.
   [issue tracker](../../issues). If you can, include a screenshot or a save state.
 
 ## Changelog
+
+### v0.99a (2026-10-07)
+- Continent report (desk in Angelique's room): the labels 今の数 / 星の望み and the nine
+  element kanji were still Japanese graphics. They are now **POWER** / **WISHES** and
+  LIGHT, DARKNESS, WIND, WATER, FIRE, GREENERY, STEEL, DREAMS, EARTH.
+  Thanks to mikeprado30 for the report.
+- The date captions on that screen no longer run into the frame
+  ("At start" / "Today" / "3 days ago").
 
 ### v0.99 (2026-10-02)
 - Fixed a freeze in the continent reports. Some English report lines were longer than the
